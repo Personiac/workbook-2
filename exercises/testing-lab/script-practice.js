@@ -1,10 +1,14 @@
-"use strict";
+let message = "Hewwo UwUorld!!!";
+let greet = "Greeting";
 
-let question = "What?";
 
-function showGreeting () {
-    // message.innerHTML = greet;
-    console.log(question);
-    question = "How is it?";
-    console.log(question);
+function showGreeting() {
+    console.log(message);
 }
+
+function welcomeMat() {
+    showGreeting();
+    console.log(greet);
+}
+
+welcomeMat();
